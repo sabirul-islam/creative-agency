@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import { Button, Card, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 
 const Home = () => {
     return (
@@ -35,6 +35,44 @@ const Home = () => {
             <img style={{height: "50px"}}  className="m-auto" src={"https://i.ibb.co/5kFLG0Z/uber.png"} alt="uber"/>
             <img style={{height: "50px"}}  className="m-auto" src={"https://i.ibb.co/rxtthzH/netflix.png"} alt="netflix"/>
             <img style={{height: "50px"}}  className="m-auto" src={"https://i.ibb.co/R6swvM2/airbnb.png"} alt="airbnb"/>
+          </div>
+
+          
+          <h1 style={{marginTop: "150px"}} className="text-center">Provide awsome services</h1>
+          
+          <div className="d-flex justify-content-center my-5 text-center">
+            <Card style={{ width: '18rem' }} className="mx-auto">
+            <Card.Img style={{height: "50px", width: "50px"}} className="mx-auto" variant="top" src={"https://i.ibb.co/K6zs46T/service1.png"} />
+            <Card.Body>
+            <Card.Title>Web & Mobile Design</Card.Title>
+            <Card.Text>
+            Some quick example text to build on the card title and make up the bulk of
+            the card's content.
+            </Card.Text>
+            </Card.Body>
+            </Card>
+
+            <Card style={{ width: '18rem' }} className="mx-auto">
+            <Card.Img style={{height: "50px", width: "50px"}} className="mx-auto" variant="top" src={"https://i.ibb.co/DDtRdbv/service2.png"} />
+            <Card.Body>
+            <Card.Title>Graphic Design</Card.Title>
+            <Card.Text>
+            Some quick example text to build on the card title and make up the bulk of
+            the card's content.
+            </Card.Text>
+            </Card.Body>
+            </Card>
+
+            <Card style={{ width: '18rem' }} className="mx-auto">
+            <Card.Img style={{height: "50px", width: "50px"}} className="mx-auto" variant="top" src={"https://i.ibb.co/71yXLgv/service3.png"} />
+            <Card.Body>
+            <Card.Title>Web Developement</Card.Title>
+            <Card.Text>
+            Some quick example text to build on the card title and make up the bulk of
+            the card's content.
+            </Card.Text>
+            </Card.Body>
+            </Card>
           </div>
 
         </div>
